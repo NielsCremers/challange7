@@ -45,7 +45,6 @@
                                   <input type="password" name="password" class="form-control" placeholder="Vul hier je Wachtwoord in!" required><br/>
                                  <center> <button class="btn btn-lg btn-primary btn-block" type="submit">Login!</button> </center>
                              </form>
-                            <center> <a class="btn btn-primary" href="./contact/formpage.php" role="button">Klik hier om een account aan te maken!</a> </center>
                          </div>
                          </div>
                          </div>
