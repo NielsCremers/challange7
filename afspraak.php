@@ -43,7 +43,7 @@ background-color: #748DA2;
 <input type="text" name="tb_date_start_appointment" value="" placeholder="Datum" required /> <br />
 </div>
 <div class="mb-3">
-  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Geef hier verdere info aan. (optioneel)"></textarea>
+  <textarea class="form-control" value="tb_messages" rows="3" placeholder="Geef hier verdere info aan. (optioneel)"></textarea>
 </div>
 <div class="mb-3" >
 <input type="submit" name="btn_submit" value="verzenden" class="btn btn btn-primary" required />
