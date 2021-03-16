@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/afsoraak.css">
+    <link rel="stylesheet" href="./css/afspraak.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
     <title>Afspraak inplannen!</title>
+    <style>
+    body{
+background-color: #748DA2;
+}
+</style>
 </head>
 <body>
-<div class="banner">
-<img src="https://www.abcautos.nl/fileadmin/_processed_/b/9/csm_autos_wormerveer_c011c346cd.png">
-</div>
+<center><img src="https://www.abcautos.nl/fileadmin/_processed_/b/9/csm_autos_wormerveer_c011c346cd.png"></center>
+
 <center><h1> Hieronder kunt u afspraken plannen! </h1></center>
 <center>
 <div class="form">
