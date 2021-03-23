@@ -10,7 +10,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/register.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="./css/login.css">
+    <style>
+ body{background-color: #748DA2}
+    </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,9 +21,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-  
-       
+  <body> 
+  <div class="loginstyle">  
+  <div class="form1">    
+  <img src="../images/auto-links.png" style="width:100px;height:400px;"class="center">
+  <img src="../images/auto-rechts.png" style="width:100px;height:400px;"class="center2">
           <div class="col-md-6 col-md-offset-3">
                     <center><h4></span>Log hier in! <span class="glyphicon glyphicon-user"></h4><br/></center>
                             <div class="block-margin-top">
