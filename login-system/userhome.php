@@ -49,7 +49,7 @@ background-image:url("e.png");
           <div class="col-md-3"></div>
         </div>
     </div>    
-  <center><a href="check.php" class="btn btn-primary">Afspraken</a></center>
+  <center><a href="./calender/check.php" class="btn btn-primary">Afspraken</a></center>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

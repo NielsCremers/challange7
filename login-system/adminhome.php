@@ -53,8 +53,8 @@ background-image:url("ha.png");
     <br>
     <br>
     <center>
-    <a href="3a-calendar.php" class="btn btn-primary">Kalender</a>
-    </center>
+    <a href="./calender/3a-calendar.php" class="btn btn-primary">Kalender</a>
+    <a href="../controlpanel/login.php" class="btn btn-primary">Oud loginsysteem</a>    </center>
           <div class="col-md-3"></div>
         </div>
     </div>    

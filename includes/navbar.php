@@ -11,7 +11,7 @@
       <a class="nav-item nav-link" href="contact.php">contact</a>
       <a class="nav-item nav-link" href="over ons.php">Over ons</a>
       <a class="nav-item nav-link" href="showroom.php">Occasions</a>
-      <a class="nav-item nav-link" href="./controlpanel/login.php">Medewerkers</a>
+      <a class="nav-item nav-link" href="./login-system/index.php">Medewerkers</a>
       <a class="nav-item nav-link" href="https://coronadashboard.rijksoverheid.nl/">Informatie betreft Corona</a>
     </div>
   </div>
