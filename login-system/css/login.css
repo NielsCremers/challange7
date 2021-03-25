@@ -1,7 +1,7 @@
 .loginstyle{
-        width: 500px;
-        height: 500px;
-        background-color: #E6E6FA;
+        width: 1550px;
+        height: 1550px;
+        background-color: #0f132e;
 }
 
 .form1{
@@ -12,4 +12,15 @@ float:left;
 }
 .center2{
     float:right;
+    }
+    .test{
+        position:absolute;
+        top: 123px;
+        margin: auto;
+        width: 100%;
+    }
+    body{
+        
+                overflow: hidden; /* Hide scrollbars */
+              
     }

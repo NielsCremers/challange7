@@ -24,10 +24,11 @@
   <body> 
   <div class="loginstyle">  
   <div class="form1">    
-  <img src="../images/auto-links.png" style="width:100px;height:400px;"class="center">
-  <img src="../images/auto-rechts.png" style="width:100px;height:400px;"class="center2">
+  <img src="../images/auto-links.png" style="width:400px;height:800px; background-position: center;   background-repeat: no-repeat;   background-size: cover;"class="center">
+  <img src="../images/auto-rechts.png" style="width:400px;height:800px; background-position: center;   background-repeat: no-repeat;   background-size: cover;"class="center2">
+  <div class="test">
           <div class="col-md-6 col-md-offset-3">
-                    <center><h4></span>Log hier in! <span class="glyphicon glyphicon-user"></h4><br/></center>
+                    <center><h4 style="color:white;"></span>Log hier in! <span class="glyphicon glyphicon-user" style="color:white;"></h4><br/></center>
                             <div class="block-margin-top">
                               <?php 
 

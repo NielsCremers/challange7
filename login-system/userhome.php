@@ -12,7 +12,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welkom op deze pagina!</title>
-
+<style>
+body{
+   
+background-image:url("e.png");
+}
+</style>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -25,10 +30,11 @@
     <![endif]-->
   </head>
   <body>
-        <div class="navbar-collapse collapse">
+    <?php include_once "../includes/navbar.php";?>
+            <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><?php echo $_SESSION['sess_username'];?></a></li>
-            <li><a href="logout.php">Uitloggen!</a></li>
+            <li><a href="#" style="color:white"><?php echo $_SESSION['sess_username'];?></a></li>
+            <li><a href="logout.php" style="color:white">Uitloggen!</a></li>
           </ul>
         </div>
       </div>
@@ -38,15 +44,17 @@
       <div class="row">
          <div class="col-md-3"></div>
             <div class="col-md-6 welcome-page">
-              <h2>Welkom <?php echo $_SESSION['sess_username'];?>! </h2>
+              <h2 style="color:white">Welkom <?php echo $_SESSION['sess_username'];?>! </h2>
             </div>
           <div class="col-md-3"></div>
         </div>
     </div>    
+  <center><a href="check.php" class="btn btn-primary">Afspraken</a></center>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="./js/bootstrap.min.js"></script>
+    <?php include_once "../includes/footer.php";?>
     </body>
 </html>

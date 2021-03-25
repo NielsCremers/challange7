@@ -12,7 +12,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Control Panel</title>
+<style>
+  body{
+background-image:url("ha.png");
 
+ }
+</style>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -27,8 +32,8 @@
   <body>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#"><?php echo $_SESSION['sess_username'];?></a></li>
-            <li><a href="logout.php">Uitloggen!</a></li>
+            <li><a href="#"style="color:white"><?php echo $_SESSION['sess_username'];?></a></li>
+            <li><a href="logout.php" style="color:white">Uitloggen!</a></li>
           </ul>
         </div>
       </div>
@@ -38,8 +43,18 @@
       <div class="row">
          <div class="col-md-3"></div>
             <div class="col-md-6 welcome-page">
-              <h2>Welkom op het controlpanel!</h2>
+              <h2 style="color:white">Welkom op het controlpanel!</h2>
             </div>
+            <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+    <a href="3a-calendar.php" class="btn btn-primary">Kalender</a>
+    </center>
           <div class="col-md-3"></div>
         </div>
     </div>    

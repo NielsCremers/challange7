@@ -1,0 +1,93 @@
+.foto{
+  float:middle;
+  }
+
+.gegevens{
+      background-color:  #ffffff;
+      margin: auto;
+      height:800px;
+      }
+      @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+      body{
+         background-image: linear-gradient(rgb(202, 202, 202), rgb(154, 170, 185));
+        background-size: 100%;
+        position: relative;
+      }
+     
+          
+          
+          .footer{
+              position: fixed;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color: black;
+              color: white;
+              text-align: center;
+          }
+
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  right: -55%;
+  color:black;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 100%;
+  width: 40%;
+  height: 70%;
+  border: none;
+  background-color:black;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+.box{
+   width: 380px;
+   margin: 100px auto;
+   background: #fff;
+   border-radius: 7px;
+   box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+   position: absolute;
+  top: 0;
+  left: 25;
+  bottom: 0;
+  right: 55%;
+  width: 40%;
+  height: 32%;
+
+}
+
+
+.faqs{
+   padding: 0px 20px 20px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   background: #ffffff;
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-size: 14px;
+   left: 80%;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+details summary{
+   outline: none;
+}
+
